@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>List of Children</title>
+</head>
+<body>
+   <h1>{{ page_title }}</h1>
+    {% if categories %}
+       {% for cat in categories %}
+            <p>
+                <a>{{cat.parent_name}} ===> </a>
+                <a>{{cat.name}}     {{cat.budget}}</a>
+            </p>
+        {% endfor %}
+    {% else %}
+        <p> Pas de catégorie trouvée.</p>
+    {% endif %}
+</body>
+</html>

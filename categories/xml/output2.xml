@@ -1,0 +1,53 @@
+<opml version="1.0">
+	<head>
+		<title>Cate&#769;gorises</title>
+		<dateCreated>2015-04-04 05:56:21 +0000</dateCreated>
+		<expansionState>0,1,9,13,19,24,31</expansionState>
+	</head>
+	<body>
+		<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="D&#233;penses" type="D" level="0">
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Habitation" type="D" level="1">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Eau" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Gaz" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Electricit&#233;" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Loyer - Remboursement pr&#234;t" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Assurance" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="D&#233;coration" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Internet - TV" type="D" level="2" />
+			</outline>
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Transports" type="D" level="1">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Carburant" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Entretien" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Assurance" type="D" level="2" />
+			</outline>
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Loisirs" type="D" level="1">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Vacances" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Sorties" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Lecture" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Musique" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Jeux" type="D" level="2" />
+			</outline>
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Enfants" type="D" level="1">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Scolarit&#233;" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Activit&#233;s extrascolaires" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Loyers" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Pension" type="D" level="2" />
+			</outline>
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Vie courante" type="D" level="1">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Alimentation" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Soins - Beaut&#233;" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Habillement" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Bricolage" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Abonnements mobiles" type="D" level="2" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="1970-01-01" text="Frais de d&#233;placement" type="D" level="2" />
+			</outline>
+		</outline>
+		<outline AmountAtDate="90.5" Budget="100.00" Date="1970-01-01" text="Revenus" type="R" level="0">
+			<outline AmountAtDate="90.5" Budget="100.00" Date="1970-01-01" text="Salaires" type="R" level="1" />
+			<outline AmountAtDate="90.5" Budget="100.00" Date="1970-01-01" text="Rente" type="R" level="1" />
+			<outline AmountAtDate="90.5" Budget="100.00" Date="1970-01-01" text="Remboursements Avances Travail" type="R" level="1" />
+			<outline AmountAtDate="90.5" Budget="100.00" Date="1970-01-01" text="Remboursement S&#233;curit&#233; Sociale - Mutuelle" type="R" level="1" />
+			<outline AmountAtDate="90.5" Budget="100.00" Date="1970-01-01" text="Remboursement dette d'un tiers" type="R" level="1" />
+		</outline>
+	</body>
+</opml>

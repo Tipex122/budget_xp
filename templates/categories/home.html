@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block nav-style %}mkt-nav{% endblock nav-style %}
+
+{% block content %}
+
+    {# Hero Section #}
+<div class="mkt-s1">
+    <div class="mkt-s1-body container ">
+        <div class="row">
+            <h1 class="col-md-8">Gestion des Catégories du Budget Familial</h1>
+        </div>
+        <div class="row">
+            <p class="col-md-8">C'est l'application qui nous permet de gérer
+            nos Catégories financières et la répartition de notre Budget</p>
+        </div>
+        <div class="row">
+            {# First Signup Link #}
+            <a href="{% url 'sub_new' %}"
+               class="sign-up btn btn-success">Il faut d'abord ouvrir un compte !
+            </a>
+        </div>
+    </div>
+</div>
+
+    {# Main Section #}
+<div class="mkt-s2 container">
+    <h2 class="mkt-s2-h">Pourquoi gérer son Buget par Catégories ?</h2>
+    <div class="mkt-s2-body">
+        <div class="col-md-4 mkt-vp">
+            <img class="" src="{{ STATIC_URL }}images/clock.png"/>
+            <h5>Gagner du temps</h5>
+            <p>Grâce à une bonne répartition du budget
+                par Catégorie, aller rapidement à l'essentiel !
+            (surtout là où ça fait mal ! :-)</p>
+        </div>
+        <div class="col-md-4 mkt-vp">
+            <img class="" src="{{ STATIC_URL }}images/lightbulb.png"/>
+            <h5>Rester informé</h5>
+            <p>Se connecter régulièrement pour s'informer de
+                l'évolution du budget et de la répartition
+                des dépenses / revenus par Catégorie.</p>
+        </div>
+        <div class="col-md-4 mkt-vp">
+            <img class="" src="{{ STATIC_URL }}images/dollar.png"/>
+            <h5>Dégager des gains</h5>
+            <p>Grâce à un bon suivi du budget et une bonne répartition
+                par Catégorie: dégager des opportunités finanières !</p>
+        </div>
+    </div>
+    {# Second Signup Link #}
+    <a href="{% url 'sub_new' %}" class=" sgn-btm ">Ca commence par là: connecte-toi !</a>
+</div>
+
+{% endblock content %}

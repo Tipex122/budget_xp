@@ -1,0 +1,53 @@
+<opml version="1.0">
+	<head>
+		<title>Cate&#769;gorises</title>
+		<dateCreated>2015-04-04 05:56:21 +0000</dateCreated>
+		<expansionState>0,1,9,13,19,24,31</expansionState>
+	</head>
+	<body>
+		<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="1" text="D&#233;penses" type="D">
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="2" text="Habitation" type="D">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="3" text="Eau" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="4" text="Gaz" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="5" text="Electricit&#233;" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="6" text="Loyer - Remboursement pr&#234;t" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="7" text="Assurance" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="8" text="D&#233;coration" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="9" text="Internet - TV" type="D" />
+			</outline>
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="10" text="Transports" type="D">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="11" text="Carburant" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="12" text="Entretien" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="13" text="Assurance" type="D" />
+			</outline>
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="14" text="Loisirs" type="D">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="15" text="Vacances" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="16" text="Sorties" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="17" text="Lecture" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="18" text="Musique" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="19" text="Jeux" type="D" />
+			</outline>
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="20" text="Enfants" type="D">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="21" text="Scolarit&#233;" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="22" text="Activit&#233;s extrascolaires" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="23" text="Loyers" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="24" text="Pension" type="D" />
+			</outline>
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="25" text="Vie courante" type="D">
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="26" text="Alimentation" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="27" text="Soins - Beaut&#233;" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="28" text="Habillement" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="29" text="Bricolage" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="30" text="Abonnements mobiles" type="D" />
+				<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="31" text="Frais de d&#233;placement" type="D" />
+			</outline>
+		</outline>
+		<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="32" text="Revenus" type="D">
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="33" text="Salaires" type="D" />
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="34" text="Rente" type="D" />
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="35" text="Remboursements Avances Travail" type="D" />
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="36" text="Remboursement S&#233;curit&#233; Sociale - Mutuelle" type="D" />
+			<outline AmountAtDate="90.5" Budget="-100.00" Date="01/01/1970" id="37" text="Remboursement dette d'un tiers" type="D" />
+		</outline>
+	</body>
+</opml>
