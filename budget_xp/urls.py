@@ -16,19 +16,20 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import *
 from categories.views import *
+from categories import urls as categories_url
 
 urlpatterns = [
     # Categories pages
     url(r'^$', HomePage.as_view(), name="home"),
 
     # Subscriber related URLs
-    url(r'^signup/$',
-    'subscribers.views.subscriber_new', name='sub_new'),
+    url(r'^signup/$', 'subscribers.views.subscriber_new', name='sub_new'),
 
     # Admin pages
     url(r'^admin/', include(admin.site.urls)),
-
-    url(r'^categories/$', main_page),
+#    url(r'^categories/', include(categories_url)),
+    url(r'^categories/About/', categories_about, name='about'),
+    url(r'^categories/$', categories_main_page),
     url(r'^categories/Tout$', categories_page),
     url(r'^categories/(\w+)/$', categories_children_page),
 #    url(r'^contact-us/(?P<lang>[\w-]+)/$', ContactUs.as_view())

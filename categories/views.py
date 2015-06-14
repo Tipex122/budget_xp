@@ -8,13 +8,12 @@ from categories.models import Category
 
 from django.views.generic.base import TemplateView
 
-def main_page(request):
+
+def categories_main_page(request):
     template = get_template('categories/main_page.html')
-    variables = ({
-        'head_title': 'Catégories',
-        'page_title': 'Bienvenue sur la page "Catégories"',
-        'page_body': 'Endroit où vous pouvez visualiser les catégories!'
-    })
+    variables = (dict(head_title='Catégories', page_title='Bienvenue sur la page "Catégories"',
+                      page_body='Endroit où vous pouvez visualiser les catégories TOTO! '
+                                '<a href="/categories/About"> +++++ About +++++</a>'))
     output = template.render(variables)
     return HttpResponse(output)
 
@@ -44,6 +43,10 @@ def categories_children_page(request, parent_name):
     })
     output = template.render(variables)
     return HttpResponse(output)
+
+
+def categories_about(request):
+    return HttpResponse("ABOUT: Site de gestion des catégories!")
 
 
 class HomePage(TemplateView):
