@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here... if i want
 
 
 class Category(models.Model):
